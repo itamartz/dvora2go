@@ -40,4 +40,10 @@ jobs:
         
     - name: run container 
       run: docker run --rm devopsteamsdb/devopsteamsdb:pip2go_${{ steps.date.outputs.date }} cat all_hashes.txt
-   
+  
+  hash:
+    runs-on: ubuntu-latest
+    steps:
+        - name: run container 
+          run: docker run --rm devopsteamsdb/devopsteamsdb:pip2go_${{ steps.date.outputs.date }} cat all_hashes.txt  
+
