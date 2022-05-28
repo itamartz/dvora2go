@@ -52,7 +52,3 @@ jobs:
         - name: show all docker images
           run: docker images
           
-        - name: run container
-          #if: ${{ success() }}
-          run: docker run --rm devopsteamsdb/devopsteamsdb:dvora2go_${{ steps.date.outputs.date }} cat all_hashes.txt  
-
