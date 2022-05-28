@@ -39,17 +39,20 @@ jobs:
     - name: Build image
       uses: docker/build-push-action@v2
       with:
-        tags: devopsteamsdb/devopsteamsdb:pip2go_${{ steps.date.outputs.date }}
+        tags: devopsteamsdb/devopsteamsdb:dvora2go_${{ steps.date.outputs.date }}
         file: Dockerfile
         
     - name: run container 
-      run: docker run --rm devopsteamsdb/devopsteamsdb:pip2go_${{ steps.date.outputs.date }} cat all_hashes.txt
+      run: docker run --rm devopsteamsdb/devopsteamsdb:dvora2go_${{ steps.date.outputs.date }} cat all_hashes.txt
   
   hash:
     runs-on: ubuntu-latest
     needs: build
     steps:
+        - name: show all docker images
+          run: docker images
+          
         - name: run container
           #if: ${{ success() }}
-          run: docker run --rm devopsteamsdb/devopsteamsdb:pip2go_${{ steps.date.outputs.date }} cat all_hashes.txt  
+          run: docker run --rm devopsteamsdb/devopsteamsdb:dvora2go_${{ steps.date.outputs.date }} cat all_hashes.txt  
 
