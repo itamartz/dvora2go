@@ -39,4 +39,4 @@ jobs:
         file: Dockerfile
         
     - name: run container 
-      run: docker run --rm devopsteamsdb/devopsteamsdb:pip2go_${{ steps.date.outputs.date }}
+      run: docker run --rm devopsteamsdb/devopsteamsdb:pip2go_${{ steps.date.outputs.date }} cat all_hashes.txt
