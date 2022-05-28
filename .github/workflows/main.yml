@@ -11,7 +11,7 @@ on:
     branches: [ main ]
     
 concurrency:
-  group: workflow-xyz
+  group: workflow-${{ github.head_ref }}
   cancel-in-progress: true
 
 jobs:
