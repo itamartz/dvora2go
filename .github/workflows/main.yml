@@ -41,8 +41,3 @@ jobs:
     - name: run container 
       run: docker run --rm devopsteamsdb/devopsteamsdb:pip2go_${{ steps.date.outputs.date }} cat all_hashes.txt
    
-    - name: Upload math result for job 1
-      uses: actions/upload-artifact@v3
-      with:
-        name: hashes
-        path: all_hashes.txt
