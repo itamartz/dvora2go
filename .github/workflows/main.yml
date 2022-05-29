@@ -74,7 +74,8 @@ jobs:
     - name: Get all files in current directory
       run: |
         cd ./DownloadFiles 
-        dir
+        sha256sum *
+        #sha256sum * > all_hashes.txt
     
     
           
