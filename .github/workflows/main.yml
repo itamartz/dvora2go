@@ -44,6 +44,6 @@ jobs:
     
     - name: Get all files from current directory
       shell: pwsh
-      run: dir
+      run: Get-ChildItem -File | Get-FileHash
           
 
