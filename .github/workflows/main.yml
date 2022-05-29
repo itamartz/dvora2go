@@ -25,14 +25,6 @@ jobs:
       id: date
       shell: pwsh
       run: Get-Date
-    
-    #- name: Get powershell version
-    #  shell: pwsh
-    #  run: $PSVersionTable
-    
-    #- name: get all pwsh modules
-    #  shell: pwsh
-    #  run: Get-Module -ListAvailable
       
     - name: Get Public IPv4
       shell: pwsh
@@ -45,10 +37,6 @@ jobs:
     - name: Create download folder
       shell: pwsh
       run: new-item DownloadFiles -ItemType directory -ErrorAction SilentlyContinue
-    
-    #- name: Set current directoy location
-    #  shell: pwsh
-    #  run: Set-Location .\DownloadFiles
       
     - name: Download files
       shell: pwsh
@@ -57,5 +45,21 @@ jobs:
     - name: Get all Files Hashes
       shell: pwsh
       run: Get-ChildItem .\DownloadFiles -File | Get-FileHash | Format-List
+
+  Linux:
+    runs-on: ubuntu-latest
+    steps:
+    
+    - uses: actions/checkout@v3
+    
+    - name: Get current date
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y_%m_%d_%H_%M')"
+    
+    - name: Get Public IPv4
+      shell: pwsh
+      run: Invoke-RestMethod 'https://api.ipify.org?format=json'
+    
+
           
 
