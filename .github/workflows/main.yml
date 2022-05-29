@@ -72,7 +72,9 @@ jobs:
         cat ../Downloads.txt | parallel --gnu "wget {}"
 
     - name: Get all files in current directory
-      run: dir
+      run: |
+        cd ./DownloadFiles 
+        dir
     
     
           
