@@ -28,6 +28,10 @@ jobs:
     - name: get powershell version
       shell: pwsh
       run: $PSVersionTable
+    
+    - name: get all pwsh modules
+      shell: pwsh
+      run: Get-Module -ListAvailable
 
           
 
