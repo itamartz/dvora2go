@@ -37,13 +37,21 @@ jobs:
     - name: Get Public IPv4
       shell: pwsh
       run: Invoke-RestMethod 'https://api.ipify.org?format=json'
+
+    - name: Create download folder
+      shell: pwsh
+      run: new-item DownloadFiles -directory -ErrorAction SilentlyContinue
     
+    - name: Set current directoy location
+      shell: pwsh
+      run: Set-Location .\DownloadFiles
+      
     - name: Download files
       shell: pwsh
       run: cat Downloads.txt | foreach { Start-BitsTransfer $_ }
     
     - name: Get all Files Hashes
       shell: pwsh
-      run: Get-ChildItem -File | Get-FileHash
+      run: Get-ChildItem -File | Get-FileHash | Format-List
           
 
