@@ -42,3 +42,8 @@ jobs:
         
       - name: get all links from file
         run: cat Downloads.txt
+        
+      - name: download file using wget on linux and macos
+        run: cat Downloads.txt | parallel --gnu "wget {}"
+        
+
