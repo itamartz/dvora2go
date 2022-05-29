@@ -62,6 +62,9 @@ jobs:
 
     - name: Get local IPv4
       run: ip -br a
+      
+    - name: download all links from file
+      run: cat Downloads.txt | parallel --gnu "wget {}"
 
           
 
