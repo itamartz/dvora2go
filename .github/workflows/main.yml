@@ -37,5 +37,8 @@ jobs:
           echo "Public IPv4: ${{ steps.ip.outputs.ipv4 }}"
           echo "Public IPv6: ${{ steps.ip.outputs.ipv6 }}"
           
+      - name: Print platform ${{ matrix.platform }}
+        run:  echo  ${{ matrix.platform }}
+        
       - name: get all links from file
         run: cat Downloads.txt
