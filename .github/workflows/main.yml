@@ -62,11 +62,18 @@ jobs:
 
     - name: Get local IPv4
       run: ip -br a
+    
+    - name: Create download folder
+      run: mkdir DownloadFiles
       
     - name: Download all links from file
-      run: cat Downloads.txt | parallel --gnu "wget {}"
+      run: |
+        cd ./DownloadFiles
+        cat ../Downloads.txt | parallel --gnu "wget {}"
 
-    - name: Get all files in current folder
+    - name: Get all files in current directory
       run: dir
+    
+    
           
 
