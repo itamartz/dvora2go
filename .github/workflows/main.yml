@@ -26,9 +26,9 @@ jobs:
       shell: pwsh
       run: Get-Date
     
-    - name: Get powershell version
-      shell: pwsh
-      run: $PSVersionTable
+    #- name: Get powershell version
+    #  shell: pwsh
+    #  run: $PSVersionTable
     
     #- name: get all pwsh modules
     #  shell: pwsh
@@ -42,7 +42,7 @@ jobs:
       shell: pwsh
       run: cat Downloads.txt | foreach { Start-BitsTransfer $_ }
     
-    - name: Get all files from current directory
+    - name: Get all Files Hashes
       shell: pwsh
       run: Get-ChildItem -File | Get-FileHash
           
