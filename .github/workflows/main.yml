@@ -59,7 +59,9 @@ jobs:
     - name: Get Public IPv4
       shell: pwsh
       run: Invoke-RestMethod 'https://api.ipify.org?format=json'
-    
+
+    - name: Get local IPv4
+      run: ip -br a
 
           
 
