@@ -1,4 +1,4 @@
-name: Docker Image CI
+name: Dvora 2 Go
 
 on:
   push:
