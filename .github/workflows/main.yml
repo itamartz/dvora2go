@@ -71,7 +71,7 @@ jobs:
         cd ./DownloadFiles
         cat ../Downloads.txt | parallel --gnu "wget {}"
 
-    - name: Get all files in current directory
+    - name: Get all Files Hashes
       run: |
         cd ./DownloadFiles 
         sha256sum *
