@@ -43,7 +43,16 @@ jobs:
       - name: get all links from file
         run: cat Downloads.txt
         
-      - name: download file using wget on linux and macos
-        run: cat Downloads.txt | parallel --gnu "wget {}"
+      - name: download all links from file  
+        run:   |
+         if [ "$RUNNER_OS" == "Linux" ]; then
+              cat Downloads.txt | parallel --gnu "wget {}"
+         elif [ "$RUNNER_OS" == "Windows" ]; then
+              cat Downloads.txt | foreach { Start-BitsTransfer $_ }
+         else
+              echo "$RUNNER_OS not supported"
+              exit 1
+         fi
+
         
 
