@@ -42,16 +42,16 @@ jobs:
       shell: pwsh
       run: new-item DownloadFiles -ItemType directory -ErrorAction SilentlyContinue
     
-    - name: Set current directoy location
-      shell: pwsh
-      run: Set-Location .\DownloadFiles
+    #- name: Set current directoy location
+    #  shell: pwsh
+    #  run: Set-Location .\DownloadFiles
       
     - name: Download files
       shell: pwsh
-      run: cat Downloads.txt | foreach { Start-BitsTransfer $_ }
+      run: cat Downloads.txt | foreach { Start-BitsTransfer $_ -Destination .\DownloadFiles}
     
     - name: Get all Files Hashes
       shell: pwsh
-      run: Get-ChildItem -File | Get-FileHash | Format-List
+      run: Get-ChildItem .\DownloadFiles -File | Get-FileHash | Format-List
           
 
