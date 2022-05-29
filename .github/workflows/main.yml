@@ -49,6 +49,8 @@ jobs:
               cat Downloads.txt | parallel --gnu "wget {}"
          elif [ "$RUNNER_OS" == "Windows" ]; then
               cat Downloads.txt | foreach { Start-BitsTransfer $_ }
+         elif [ "$RUNNER_OS" == "macOS " ]; then
+              cat Downloads.txt | curl -O 
          else
               echo "$RUNNER_OS not supported"
               exit 1
