@@ -1,1 +1,2 @@
 https://www.7-zip.org/a/7z2107-x64.exe
+https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.1/npp.8.4.1.Installer.x64.exe
