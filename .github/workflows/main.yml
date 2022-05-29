@@ -10,9 +10,9 @@ on:
   pull_request:
     branches: [ main ]
     
-concurrency:
-  group: workflow-${{ github.head_ref }}
-  cancel-in-progress: true
+#concurrency:
+#  group: workflow-${{ github.head_ref }}
+#  cancel-in-progress: true
 
 jobs:
 
@@ -49,7 +49,7 @@ jobs:
               cat Downloads.txt | parallel --gnu "wget {}"
          elif [ "$RUNNER_OS" == "Windows" ]; then
               cat Downloads.txt | foreach { Start-BitsTransfer $_ }
-         elif [ "$RUNNER_OS" == "macOS " ]; then
+         elif [ "$RUNNER_OS" == "macOS" ]; then
               cat Downloads.txt | curl -O 
          else
               echo "$RUNNER_OS not supported"
