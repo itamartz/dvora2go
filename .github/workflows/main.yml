@@ -37,7 +37,7 @@ jobs:
       shell: pwsh
       run: Invoke-RestMethod 'https://api.ipify.org?format=json'
     
-    - name: get all pwsh modules
+    - name: download files
       shell: pwsh
       run: cat Downloads.txt | foreach { Start-BitsTransfer $_ }   
           
