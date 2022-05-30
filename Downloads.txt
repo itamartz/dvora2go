@@ -1,2 +1,2 @@
 https://www.7-zip.org/a/7z2107-x64.exe
-https://github.com/devopsteamsdb/dvora2go/actions/workflows/main.yml/badge.svg
+http://test.reka.us/test.txt
