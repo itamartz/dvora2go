@@ -15,36 +15,7 @@ on:
 #  cancel-in-progress: true
 
 jobs: 
-  windows: 
-    runs-on: windows-latest
-    steps:
-    
-    - uses: actions/checkout@v3
-    
-    - name: Get current date
-      id: date
-      shell: pwsh
-      run: Get-Date
-      
-    - name: Get Public IPv4
-      shell: pwsh
-      run: Invoke-RestMethod 'https://api.ipify.org?format=json'
 
-    - name: Get local IPv4
-      shell: pwsh
-      run: Get-NetIPConfiguration | select InterfaceAlias,IPv4Address
-      
-    - name: Create download folder
-      shell: pwsh
-      run: new-item DownloadFiles -ItemType directory -ErrorAction SilentlyContinue
-      
-    - name: Download files
-      shell: pwsh
-      run: cat Downloads.txt | foreach { Start-BitsTransfer $_ -Destination .\DownloadFiles}
-    
-    - name: Get all Files Hashes
-      shell: pwsh
-      run: Get-ChildItem .\DownloadFiles -File | Get-FileHash | Format-List
 
   Linux:
     runs-on: ubuntu-latest
@@ -76,15 +47,28 @@ jobs:
         cd ./DownloadFiles 
         sha256sum *
         #sha256sum * > all_hashes.txt
+    
+    - name: Get all Files Hashes
+      shell: pwsh
+      run: Get-ChildItem ./DownloadFiles -File | Get-FileHash | Export-Csv -Path ./DownloadFiles/linux_hash.csv -Encoding UTF8
+      
+    - uses: actions/upload-artifact@v2
+      with:
+        name: linux-hash
+        path: ./DownloadFiles/linux_hash.csv
+    
 
   compare_hash:
     runs-on: ubuntu-latest
-    needs: [Linux, windows]
+    needs: [Linux]
     steps:
       - uses: actions/checkout@v2
       - uses: actions/download-artifact@v2
         with:
-          name: my-artifact
+          name: linux-hash
+      
+      - name: get all files in current directory
+        run: dir
     
           
 
