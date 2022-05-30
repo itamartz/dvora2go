@@ -51,7 +51,7 @@ jobs:
     - name: Get all Files Hashes
       shell: pwsh
       run: |
-        Get-ChildItem ./DownloadFiles -File | Get-FileHash | Select -Property hash, @{N='File'; E={$_.path.split('\')[-1]}} | Export-Csv -Path ./DownloadFiles/linux_hash.csv -Encoding UTF8
+        Get-ChildItem ./DownloadFiles -File | Get-FileHash | Select -Property hash, @{N='File'; E={$_.path.split('/')[-1]}} | Export-Csv -Path ./DownloadFiles/linux_hash.csv -Encoding UTF8
         #Get-ChildItem ./DownloadFiles -File | Get-FileHash | Export-Csv -Path ./DownloadFiles/linux_hash.csv -Encoding UTF8
       
     - uses: actions/upload-artifact@v2
