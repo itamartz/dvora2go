@@ -13,3 +13,6 @@ No! Github Actions is **free** :)
 ### Support or Contact
 
 Having trouble? Contact us immediately.
+
+#### Hash Page
+[a relative link](hashes.md)
