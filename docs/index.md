@@ -2,7 +2,7 @@
 
 ![Image](Dvora2Go.png)
 
-### What is Drove2Go
+### What is Dvora2Go
 
 This is file hash compare utility hosted on github
 
