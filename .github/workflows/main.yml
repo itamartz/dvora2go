@@ -72,7 +72,7 @@ jobs:
         
       - name: import csv content
         shell: pwsh
-        run: Import-Csv -Path linux_hash.csv
+        run: Import-Csv -Path linux_hash.csv | format-list
     
           
 
