@@ -69,6 +69,10 @@ jobs:
       
       - name: get all files in current directory
         run: dir
+        
+      - name: import csv content
+        shell: pwsh
+        run: Import-Csv -Path linux_hash.csv
     
           
 
