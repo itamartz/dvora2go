@@ -119,5 +119,5 @@ jobs:
         run: | 
           $ReferenceObject = Import-Csv -Path linux_hash.csv
           $DifferenceObject = Import-Csv -Path windows_hash.csv
-          Compare-Object -ReferenceObject $ReferenceObject -DifferenceObject $DifferenceObject -IncludeEqual | Format-List
+          Compare-Object -ReferenceObject $ReferenceObject -DifferenceObject $DifferenceObject -IncludeEqual -Property hash,File | Format-List
             
