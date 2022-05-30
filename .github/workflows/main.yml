@@ -11,6 +11,12 @@ on:
   pull_request:
     branches: [ main ]
     
+  workflow_dispatch:
+    inputs:
+      file_url:
+        description: 'File URL'     
+        required: true
+    
 #concurrency:
 #  group: workflow-${{ github.head_ref }}
 #  cancel-in-progress: true
