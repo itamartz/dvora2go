@@ -76,7 +76,15 @@ jobs:
         cd ./DownloadFiles 
         sha256sum *
         #sha256sum * > all_hashes.txt
-    
+
+  compare_hash:
+    runs-on: ubuntu-latest
+    needs: [Linux, windows]
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/download-artifact@v2
+        with:
+          name: my-artifact
     
           
 
