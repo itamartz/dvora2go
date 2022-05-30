@@ -6,6 +6,7 @@ on:
     paths-ignore:
       - 'README.md'
       - '.github/workflows/docker-image.yml'
+      - './Docs/index.md'
 
   pull_request:
     branches: [ main ]
