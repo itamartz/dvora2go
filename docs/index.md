@@ -15,4 +15,4 @@ No! Github Actions is **free** :)
 Having trouble? Contact us immediately.
 
 #### Hash Page
-[a relative link](hashes.md)
+[Link](hashes.md)
