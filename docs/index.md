@@ -8,7 +8,7 @@ This is file hash compare utility hosted on github
 
 ### Do i need cloud server?
 
-No! Github Actions if for **free** :)
+No! Github Actions is **free** :)
 
 ### Support or Contact
 
