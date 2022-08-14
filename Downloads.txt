@@ -1,2 +1,2 @@
-https://www.7-zip.org/a/7z2201-x64.exe
-https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.1/npp.8.4.1.Installer.x64.exe
+http://b1.download.windowsupdate.com/d/upgr/2022/05/19044.1706.220505-0136.21h2_release_svc_refresh_clientbusiness_vol_x64fre_en-us_03d0a0dfebf88acfce0e6f870cba95ad3b3221c9.esd
+http://b1.download.windowsupdate.com/c/upgr/2022/05/windowsupdatebox_c40ec5c350a743c328bbe9c5719b5f29b3582e42.exe
