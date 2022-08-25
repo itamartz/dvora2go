@@ -1,1 +1,1 @@
-https://www.sordum.org/files/download/simple-vhd-manager/VhdManager.zip
+https://download.microsoft.com/download/3/3/9/339BE62D-B4B8-4956-B58D-73C4685FC492/MicrosoftDeploymentToolkit_x64.msi
