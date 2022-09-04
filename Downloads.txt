@@ -8,3 +8,4 @@ https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.2/
 https://d3.7-zip.org/a/7z2201-x64.msi
 https://swupdate.openvpn.net/downloads/connect/openvpn-connect-3.3.6.2752_signed.msi
 https://downloads.faronics.com/Install/Faronics_DFS.zip
+https://github.com/pbatard/rufus/releases/download/v3.20/rufus-3.20p.exe
