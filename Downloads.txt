@@ -13,3 +13,4 @@ https://download-installer.cdn.mozilla.net/pub/firefox/releases/104.0.1/win64/en
 https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
 https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/r/rabbitmq-server-3.3.5-34.el7.noarch.rpm
 https://vdc-download.vmware.com/vmwb-repository/dcr-public/7b223f8c-1eea-4ac8-9d60-f6ff84e5a286/8ceaaed4-8235-4ffa-a0e6-303cc36cc96a/VMware-PowerCLI-12.7.0-20091289.zip
+https://vsphereclient.vmware.com/vsphereclient/VMware-EnhancedAuthenticationPlugin-6.7.0.exe
