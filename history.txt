@@ -1,1 +1,16 @@
-
+https://download.microsoft.com/download/3/3/9/339BE62D-B4B8-4956-B58D-73C4685FC492/MicrosoftDeploymentToolkit_x64.msi
+https://download.microsoft.com/download/6/7/4/674ec7db-7c89-4f2b-8363-689055c2b430/adk/adksetup.exe
+https://download.microsoft.com/download/5/2/5/525dcde0-c7b8-487a-894d-0952775a78c7/adkwinpeaddons/adkwinpesetup.exe
+https://metascanbucket.s3.amazonaws.com/Metadefender/Update_Downloader/2.5.0-1/windows/ometadownloader-2.5.0-1-x64.msi
+https://software-static.download.prss.microsoft.com/db/download/444969d5-f34g-4e03-ac9d-1f9786c69161/19044.1288.211006-0501.21h2_release_svc_refresh_CLIENT_LTSC_EVAL_x64FRE_en-us.iso
+http://b1.download.windowsupdate.com/d/upgr/2022/05/19044.1706.220505-0136.21h2_release_svc_refresh_clientbusiness_vol_x64fre_en-us_03d0a0dfebf88acfce0e6f870cba95ad3b3221c9.esd
+https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.2/npp.8.4.2.Installer.x64.exe
+https://d3.7-zip.org/a/7z2201-x64.msi
+https://swupdate.openvpn.net/downloads/connect/openvpn-connect-3.3.6.2752_signed.msi
+https://downloads.faronics.com/Install/Faronics_DFS.zip
+https://github.com/pbatard/rufus/releases/download/v3.20/rufus-3.20p.exe
+https://download-installer.cdn.mozilla.net/pub/firefox/releases/104.0.1/win64/en-US/Firefox%20Setup%20104.0.1.msi
+https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/r/rabbitmq-server-3.3.5-34.el7.noarch.rpm
+https://vdc-download.vmware.com/vmwb-repository/dcr-public/7b223f8c-1eea-4ac8-9d60-f6ff84e5a286/8ceaaed4-8235-4ffa-a0e6-303cc36cc96a/VMware-PowerCLI-12.7.0-20091289.zip
+https://vsphereclient.vmware.com/vsphereclient/VMware-EnhancedAuthenticationPlugin-6.7.0.exe
