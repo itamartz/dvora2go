@@ -3,3 +3,5 @@ https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2200220212/AcroRdrD
 https://github.com/PowerShell/PowerShell/releases/download/v7.2.6/PowerShell-7.2.6-win-x64.msi
 https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe
 https://www.python.org/ftp/python/3.10.7/python-3.10.7-amd64.exe
+https://www.python.org/ftp/python/3.9.14/Python-3.9.14.tgz
+https://www.python.org/ftp/python/3.10.7/Python-3.10.7.tgz
