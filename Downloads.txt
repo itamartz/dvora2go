@@ -1,7 +1,1 @@
-https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/1500720033/AcroRdrDC1500720033_MUI.exe
-https://ardownload2.adobe.com/pub/adobe/reader/win/AcrobatDC/2200220212/AcroRdrDCUpd2200220212_MUI.msp
-https://github.com/PowerShell/PowerShell/releases/download/v7.2.6/PowerShell-7.2.6-win-x64.msi
-https://www.python.org/ftp/python/3.9.13/python-3.9.13-amd64.exe
-https://www.python.org/ftp/python/3.10.7/python-3.10.7-amd64.exe
-https://www.python.org/ftp/python/3.9.14/Python-3.9.14.tgz
-https://www.python.org/ftp/python/3.10.7/Python-3.10.7.tgz
+https://download.microsoft.com/download/4/e/0/4e0fe8d7-ba82-4354-9cc2-18ac02cfd6b5/Administrative%20Templates%20(.admx)%20for%20Windows%2010%20November%202021%20Update.msi
