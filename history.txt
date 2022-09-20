@@ -15,3 +15,9 @@ https://download-ib01.fedoraproject.org/pub/epel/7/x86_64/Packages/r/rabbitmq-se
 https://vdc-download.vmware.com/vmwb-repository/dcr-public/7b223f8c-1eea-4ac8-9d60-f6ff84e5a286/8ceaaed4-8235-4ffa-a0e6-303cc36cc96a/VMware-PowerCLI-12.7.0-20091289.zip
 https://vsphereclient.vmware.com/vsphereclient/VMware-EnhancedAuthenticationPlugin-6.7.0.exe
 https://download.uipath.com/UiPathStudioCommunity.msi
+https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/secu/2019/09/windows6.1-kb4474419-v3-x64_b5614c6cea5cb4e198717789633dca16308ef79c.msu
+https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/secu/2019/03/windows6.1-kb4490628-x64_d3de52d6987f7c8bdc2c015dca69eac96047c76e.msu
+https://catalog.s.download.windowsupdate.com/c/msdownload/update/software/secu/2020/01/windows6.1-kb4536952-x64_87f81056110003107fa0e0ec35a3b600ef300a14.msu
+https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/secu/2020/07/windows6.1-kb4575903-x64_b4d5cf045a03034201ff108c2802fa6ac79459a1.msu
+https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/secu/2022/07/windows6.1-kb5016057-x64_7f66297be90ab258559f7559645ca52e13cc2498.msu
+https://catalog.s.download.windowsupdate.com/d/msdownload/update/software/secu/2022/08/windows6.1-kb5016676-x64_d03027b24fdb5b2f4743da145f93d9219c18d597.msu
