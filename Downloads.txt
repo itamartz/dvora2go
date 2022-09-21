@@ -1,2 +1,1 @@
-https://files.pythonhosted.org/packages/4b/30/e15b806597e67057e07a5acdc135216ccbf76a5f1681a324533b61066b0b/pip-22.2.2.tar.gz
-https://downloads.faronics.com/Install/Faronics_DFS.zip
+https://myvs.download.prss.microsoft.com/dbazure/en-us_windows_10_business_editions_version_21h2_updated_sep_2022_x64_dvd_c9733841.iso?t=3084f304-46d8-4739-aebd-4c493130f9e7&e=1663778712&h=fb72353f5c3735e8ab1720ca8e37ba9314c17fa07471029fe7704e6f6ff49285&su=1
