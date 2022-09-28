@@ -4,3 +4,4 @@ https://ftp.hp.com/pub/softpaq/sp111501-112000/sp111958.exe
 https://ftp.hp.com/pub/softpaq/sp114001-114500/sp114276.exe
 https://ftp.hp.com/pub/softpaq/sp114001-114500/sp114190.exe
 https://ftp.hp.com/pub/softpaq/sp138001-138500/sp138464.exe
+https://ftp.hp.com/pub/softpaq/sp140001-140500/sp140359.exe
