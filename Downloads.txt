@@ -1,1 +1,1 @@
-https://github.com/PowerShell/PowerShell/releases/download/v7.2.6/powershell-7.2.6-1.rh.x86_64.rpm
+https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.4.5/npp.8.4.5.Installer.x64.exe
