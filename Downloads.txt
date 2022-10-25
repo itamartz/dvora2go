@@ -1,8 +1,1 @@
-https://ftp.ext.hp.com/pub/softpaq/sp108501-109000/sp108773.exe
-https://ftp.hp.com/pub/softpaq/sp92501-93000/sp92706.exe
-https://ftp.hp.com/pub/softpaq/sp100501-101000/sp100851.exe
-https://ftp.hp.com/pub/softpaq/sp111501-112000/sp111958.exe
-https://ftp.hp.com/pub/softpaq/sp114001-114500/sp114276.exe
-https://ftp.hp.com/pub/softpaq/sp114001-114500/sp114190.exe
-https://ftp.hp.com/pub/softpaq/sp138001-138500/sp138464.exe
-https://ftp.hp.com/pub/softpaq/sp140001-140500/sp140359.exe
+https://packages.vmware.com/tools/releases/latest/windows/x64/VMware-tools-12.1.0-20219665-x86_64.exe
