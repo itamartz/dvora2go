@@ -1,2 +1,1 @@
-https://downloads.faronics.com/Install/Faronics_DFS.zip
-https://vdc-repo.vmware.com/vmwb-repository/dcr-public/02830330-d306-4111-9360-be16afb1d284/c7b98bc2-fcce-44f0-8700-efed2b6275aa/VMware-PowerCLI-13.0.0-20829139.zip
+https://cyberarkmarketplace.blob.core.windows.net/downloads/PSMClient1.6.3.zip?sv=2017-07-29&sr=b&sig=RgEqs%2Bn4FcWRJgWPQV2XX2b7wenkh8MRwC71%2F8DqfyY%3D&se=2022-11-24T06%3A31%3A50Z&sp=r
