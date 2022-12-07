@@ -1,1 +1,1 @@
-https://cyberarkmarketplace.blob.core.windows.net/downloads/PSMClient1.6.3.zip?sv=2017-07-29&sr=b&sig=RgEqs%2Bn4FcWRJgWPQV2XX2b7wenkh8MRwC71%2F8DqfyY%3D&se=2022-11-24T06%3A31%3A50Z&sp=r
+https://www.myget.org/F/uipath-dev/api/v2/package/UiPath.PowerShell/20.12.1.15
