@@ -1,1 +1,2 @@
-https://www.myget.org/F/uipath-dev/api/v2/package/UiPath.PowerShell/20.12.1.15
+https://github.com/microsoft/SCXcore/releases/download/v1.6.11-0/scx-1.6.11-0.ssl_100.universal.x64.rpm
+https://github.com/microsoft/SCXcore/releases/download/v1.6.11-0/scx-1.6.11-0.ssl_110.universal.x64.rpm
