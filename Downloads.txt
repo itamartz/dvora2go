@@ -1,1 +1,2 @@
-http://b1.download.windowsupdate.com/d/upgr/2022/05/19044.1706.220505-0136.21h2_release_svc_refresh_clientbusiness_vol_x64fre_en-us_03d0a0dfebf88acfce0e6f870cba95ad3b3221c9.esd
+https://download.microsoft.com/download/B/E/F/BEF2BB1E-221D-4A8E-A38C-F332BCE30705/Microsoft%20System%20Center%202019%20MP%20for%20Unix%20and%20Linux.msi
+https://download.microsoft.com/download/B/E/F/BEF2BB1E-221D-4A8E-A38C-F332BCE30705/Universal_Linux_MP_Guide.doc
