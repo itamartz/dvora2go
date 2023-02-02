@@ -1,3 +1,2 @@
-https://download.microsoft.com/download/B/E/F/BEF2BB1E-221D-4A8E-A38C-F332BCE30705/Microsoft%20System%20Center%202019%20MP%20for%20Unix%20and%20Linux.msi
-https://download.microsoft.com/download/B/E/F/BEF2BB1E-221D-4A8E-A38C-F332BCE30705/Universal_Linux_MP_Guide.doc
-https://ftp.hp.com/pub/softpaq/sp138501-139000/sp138684.exe
+https://github.com/cyanfish/naps2/releases/download/v6.1.2/naps2-6.1.2-setup.msi
+https://github.com/cyanfish/naps2/releases/download/v6.1.2/naps2-6.1.2-portable.zip
