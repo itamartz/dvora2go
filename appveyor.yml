@@ -1,0 +1,5 @@
+build_script:
+ - ps: Invoke-RestMethod 'https://api.ipify.org?format=json'
+ - ps: cat Downloads.txt | foreach { Start-BitsTransfer $_ -Destination .\DownloadFiles}
+ - ps: Get-ChildItem .\DownloadFiles -File | Get-FileHash | Select -Property hash, @{N='File'; E={$_.path.split('\')[-1]}} | Export-Csv -Path .\hash.csv -Encoding UTF8
+ - ps: Import-Csv -Path .\hash.csv
